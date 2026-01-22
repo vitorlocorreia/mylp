@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, PenTool, Coffee } from 'lucide-react';
@@ -21,9 +20,9 @@ const About: React.FC = () => {
                 
                 {/* PLACEHOLDER IMAGE: 600x600px */}
                 <img 
-                    src="https://placehold.co/600x600/151518/00AFFF?text=Foto+do+Vitor+(600x600)&font=inter" 
-                    alt="Vitor Portrait Placeholder" 
-                    className="relative w-full h-full object-cover rounded-3xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500 border border-steel"
+                    src="/assets/imgA.jpeg" 
+                    alt="Vitor Portrait" 
+                    className="relative w-full h-full object-cover rounded-3xl shadow-2xl transition-all duration-500 border border-steel hover:grayscale-0"
                 />
                 
                 

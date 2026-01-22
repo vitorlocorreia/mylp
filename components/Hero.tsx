@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, Code, Terminal, Cpu, Zap, Layers, Database } from 'lucide-react';
 import { Spotlight } from './ui/spotlight';
@@ -99,9 +98,9 @@ const Hero: React.FC = () => {
                     
                     {/* Placeholder for Vitor's Photo */}
                     <img 
-                        src="https://placehold.co/800x1000/151518/00AFFF?text=Foto+do+Vitor&font=inter"
+                        src="/assets/imgH2.png"
                         alt="Vitor Developer" 
-                        className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                        className="w-full h-full object-cover transition-all duration-700 hover:grayscale-0"
                     />
 
                     {/* Floating Tech Badge 1 */}

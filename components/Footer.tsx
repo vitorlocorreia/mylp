@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Instagram, Linkedin, Github, Mail } from 'lucide-react';
 
@@ -32,14 +31,8 @@ const Footer: React.FC = () => {
             <div>
                 <h4 className="font-bold text-lg mb-4 text-white">Contato</h4>
                 <div className="flex space-x-4 mb-4">
-                    <a href="https://wa.me/5581985742015" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-anthracite border border-steel flex items-center justify-center hover:border-electric hover:text-electric transition-all">
+                    <a href="https://www.instagram.com/dev.vitorcorreia/?hl=en" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-anthracite border border-steel flex items-center justify-center hover:border-electric hover:text-electric transition-all">
                         <Instagram size={20} />
-                    </a>
-                    <a href="https://wa.me/5581985742015" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-anthracite border border-steel flex items-center justify-center hover:border-electric hover:text-electric transition-all">
-                        <Linkedin size={20} />
-                    </a>
-                    <a href="https://wa.me/5581985742015" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-anthracite border border-steel flex items-center justify-center hover:border-electric hover:text-electric transition-all">
-                        <Github size={20} />
                     </a>
                 </div>
                 <a href="https://wa.me/5581985742015" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm">
