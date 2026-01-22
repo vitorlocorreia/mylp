@@ -2,12 +2,6 @@ import React, { useRef } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { PortfolioItem } from '../types';
 import { ExternalLink, ArrowRight, Monitor, Smartphone, Layers } from 'lucide-react';
-import desktopImg1 from '@/assets/desktop.png';
-import mobileImg1 from '@/assets/mobile.png';
-import desktopImg2 from '@/assets/desktop2.png';
-import mobileImg2 from '@/assets/mobile2.png';
-import desktopImg3 from '@/assets/desktop3.png';
-import mobileImg3 from '@/assets/mobile3.png';
 
 const projects: PortfolioItem[] = [
   {
@@ -15,9 +9,8 @@ const projects: PortfolioItem[] = [
     title: 'Miguel Correia',
     category: 'Landing Page Pessoal',
     description: 'Uma landing page desenvolvida para o treinador pessoal Miguel Correia, focada em conversão de visitantes em clientes. O design moderno e responsivo destaca seus serviços de treinamento físico, depoimentos de clientes satisfeitos. Ideal para profissionais que desejam fortalecer sua presença online e atrair mais clientes.',
-    // PLACEHOLDERS: Desktop ~16:10 aspect ratio, Mobile ~9:19 aspect ratio
-    desktopImg: desktopImg1,
-    mobileImg: mobileImg1,
+    desktopImg: '/desktop.png',
+    mobileImg: '/mobile.png',
     link: 'https://miguelcorreiatreinador.vercel.app/',
   },
   {
@@ -25,17 +18,17 @@ const projects: PortfolioItem[] = [
     title: 'LP BASE DE DENTISTAS',
     category: 'Serviços de Saúde',
     description: 'Em um mercado competitivo, a confiança é um diferencial. Esta landing page foi projetada para transmitir profissionalismo e acolhimento, utilizando um design limpo, prova social e chamadas para ação eficazes para transformar visitantes em pacientes agendados.',
-    desktopImg: desktopImg2,
-    mobileImg: mobileImg2,
+    desktopImg: '/desktop2.png',
+    mobileImg: '/mobile2.png',
     link: 'https://lpdentista-ikdq2a3bi-vitorlocorreias-projects.vercel.app',
   },
   {
     id: 3,
-  title: 'LP BASE DE ADVOGADOS',
+    title: 'LP BASE DE ADVOGADOS',
     category: 'Serviços Jurídicos',
     description: 'Sobriedade e autoridade são essenciais no universo jurídico. Para este projeto, o desafio foi traduzir esses valores em uma experiência digital que converte. Cada elemento, da paleta de cores à disposição dos depoimentos, foi pensado para gerar credibilidade e, consequentemente, clientes.',
-    desktopImg: desktopImg3,
-    mobileImg: mobileImg3,
+    desktopImg: '/desktop3.png',
+    mobileImg: '/mobile3.png',
     link: 'https://lpadv.vercel.app',
   },
 ];

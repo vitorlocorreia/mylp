@@ -98,7 +98,7 @@ const Hero: React.FC = () => {
                     
                     {/* Placeholder for Vitor's Photo */}
                     <img 
-                        src="/assets/imgH2.png"
+                        src="/imgH2.png"
                         alt="Vitor Developer" 
                         className="w-full h-full object-cover transition-all duration-700 hover:grayscale-0"
                     />

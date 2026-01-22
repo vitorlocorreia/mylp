@@ -20,7 +20,7 @@ const About: React.FC = () => {
                 
                 {/* PLACEHOLDER IMAGE: 600x600px */}
                 <img 
-                    src="/assets/imgA.jpeg" 
+                    src="/imgA.jpeg" 
                     alt="Vitor Portrait" 
                     className="relative w-full h-full object-cover rounded-3xl shadow-2xl transition-all duration-500 border border-steel hover:grayscale-0"
                 />
