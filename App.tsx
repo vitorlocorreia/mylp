@@ -1,4 +1,5 @@
 import React from 'react';
+import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import PremiumCapabilities from './components/PremiumCapabilities';
@@ -13,21 +14,23 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 const App: React.FC = () => {
   return (
-    <div className="bg-void min-h-screen text-chrome selection:bg-electric selection:text-white">
-      <Navbar />
-      <main>
-        <Hero />
-        <PremiumCapabilities />
-        <MarketReality />
-        <About />
-        <Portfolio />
-        <ServicePlans />
-        <Testimonials />
-        <WhatsAppSection />
-      </main>
-      <Footer />
-      <FloatingWhatsApp />
-    </div>
+    <LanguageProvider>
+      <div className="bg-void min-h-screen text-chrome selection:bg-electric selection:text-white">
+        <Navbar />
+        <main>
+          <Hero />
+          <PremiumCapabilities />
+          <MarketReality />
+          <About />
+          <Portfolio />
+          <ServicePlans />
+          <Testimonials />
+          <WhatsAppSection />
+        </main>
+        <Footer />
+        <FloatingWhatsApp />
+      </div>
+    </LanguageProvider>
   );
 };
 
